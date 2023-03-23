@@ -1,70 +1,105 @@
-# Getting Started with Create React App
+# Communication components and default props  
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+In this section some concepts are put into practice such as: component properties, default props, communication components, Hooks: useState, useRef.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-### `npm start`
+Create a card component that can be rendered by a parent component, select a card, add its value to the purchase total, and remove it from view as soon as it is selected.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Themes and Methodologies Used:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Comunication components
+- Props component
+- Default Props
+- **Hooks**: useRef , useState
+  
+---
 
-### `npm test`
+## PROJECT REVIEW:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### UI Index Web Page
 
-### `npm run build`
+.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<p align="center">
+<img src="https://res.cloudinary.com/adev48/image/upload/v1679612967/Info%20Repositorios/React-Course-JAB/react-04-challenge_sbgj0g.png" width="80%"> 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+</p>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Built With
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This section contains the platforms that were used for the project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+* [VS Code](https://code.visualstudio.com/)
+* [Git](https://git-scm.com/)
+* [Live Server: Extension for VsCode](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+### Installation
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Install each one the pieces of software previously mentioned.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+1. Clone the repo
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- HTTPS
+   ```
+   $ git clone https://github.com/nqs48/React-course_JAB-Youtube.git
+   ```
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- SSH
+   ```
+   $ git clone git@github.com:nqs48/React-course_JAB-Youtube.git
+   ```
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+2. Open the project with VisualStudio Code (In the root proyect directory)
 
-### Advanced Configuration
+   ```
+   $ open .
+   ```
+   
+3. In the command line go to route **./04-components-props**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+   ```
+   cd ./04-components-props/
+   ```
 
-### Deployment
+4. Install the packages with npm
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+   ```
+   npm install
+   ```
+   
+5. Start the server with command 
 
-### `npm run build` fails to minify
+   ```
+   npm start
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE.txt` for more information.
+
+---
+
+<!-- CONTACT -->
+## Collaborators
+```
+Nestor Quiroga Suarez
+Jr. Software Developer
+```
+
+<p align='center'>
+  <a href="#top"><img src="https://img.shields.io/badge/Back to Top-black?" alt="back to top"/></a>
+</p>
