@@ -29,7 +29,7 @@ Themes and Methodologies Used:
 
 ---
 
-- ### Udating UI Click
+- ### Updating UI Click
 <br>
 <p align="center">
 <img src="https://res.cloudinary.com/adev48/image/upload/v1679691768/Info%20Repositorios/React-Course-JAB/react-01-challenge_b2wrhb.png" width="80%"> 
