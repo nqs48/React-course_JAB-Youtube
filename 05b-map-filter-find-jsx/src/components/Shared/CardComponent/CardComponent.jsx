@@ -1,5 +1,4 @@
-import React from 'react'
-import {useRef} from 'react'
+import React, {useRef, useState} from 'react'
 
 function CardComponent(props) {
 
@@ -12,12 +11,21 @@ function CardComponent(props) {
    * Desestructuracion del objeto con propiedades
    */
   
-  const {isButton, data}= props
+  const {isButton, isCount, isDescription, data}= props
   const {nombre, color, url, vacasComidas, reinado}= data
   const vacasTotales= (vacasComidas*365)*reinado;
+  const [conteo, setConteo]= useState(0)
   
   const borrar= (e)=>{
     e.target.parentNode.remove();
+  }
+
+  const votar= ()=>{
+    setConteo(conteo+1);
+  }
+
+  const limpiar= ()=>{
+    setConteo(0);
   }
 
 
@@ -30,8 +38,17 @@ function CardComponent(props) {
             src={url}
             alt=""
         />
-        <h3>Ha comido <span style={{color: '#282c34'}}>{vacasTotales} vacas</span> en sus <span style={{color: '#282c34'}}>{reinado} años</span> de reinado.</h3>   
-        {isButton? <button onClick={borrar}>Borrar</button> : null} 
+        {isDescription? <h3>Ha comido <span style={{color: '#282c34'}}>{vacasTotales} vacas</span> en sus <span style={{color: '#282c34'}}>{reinado} años</span> de reinado.</h3> : null}  
+        {isButton? <button onClick={borrar}>Borrar</button> : null}
+        {isCount? 
+          <div>
+            <h2>{conteo}</h2>
+            <div>
+              <button onClick={votar}>Votar</button>
+              <button onClick={limpiar}>Limpiar</button>
+            </div>  
+          </div> 
+        : null}
       </div>
     
     </>
@@ -50,7 +67,9 @@ CardComponent.defaultProps= {
     reinado: 0,
     url: "https://www.html6.es/img/rey_incognito.png"
   },
-  isButton: false
+  isButton: false,
+  isCount: false,
+  isDescription: true
 }
 
 export default CardComponent

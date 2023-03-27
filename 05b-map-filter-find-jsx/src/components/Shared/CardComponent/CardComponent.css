@@ -26,6 +26,11 @@
   background-color: black;
 }
 
+.buttons-container{
+  display: flex;
+  justify-content: start;
+}
+
 button{
   padding: 0.8rem;
   background-color: white-smoke;
@@ -34,6 +39,8 @@ button{
   border-radius: 10px;
   border: none;
   font-weight: bold;
+  margin:10px;
+  width: 80px;
   
 }
 
