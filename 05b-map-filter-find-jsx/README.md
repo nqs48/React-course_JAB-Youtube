@@ -1,70 +1,141 @@
-# Getting Started with Create React App
+# Find, Filter, Map and Conditional Rendering
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+In this section some concepts are put into practice such as: **Functions**: Map, Filter, Find, Conditional Rendering, **Hooks**: useRef, useState, Events Control.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-### `npm start`
+Build a character card and render the information according to the requirements of each exercise, this with the creation of a new component that is reused in each activity.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Themes and Methodologies Used:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Functions**: Map, Filter, Find.
+- Conditional Rendering
+- **Hooks**: useRef, useState
+- Events Control
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## PROJECT REVIEW
 
-### `npm run build`
+### Challenge 001:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Go through the list of kings and render each element with the necessary information.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<br>
+<p align="center">
+<img src="https://res.cloudinary.com/adev48/image/upload/v1679947501/Info%20Repositorios/React-Course-JAB/05-AC01-react_i2llsb.png" width="100%"> 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+</p>
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Challenge 002:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Filter of the kings whose name does not contain the letter 'g', then render the component with the necessary information. Include a button that when clicked deletes the element.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<br>
+<p align="center">
+<img src="https://res.cloudinary.com/adev48/image/upload/v1679947501/Info%20Repositorios/React-Course-JAB/05-AC02-react_xkhwup.png" width="100%"> 
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+### Challenge 003:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Find the first element whose name begins with the letter indicated in the form, if it does not find any element, render a message that indicates it, and if found.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<br>
 
-### Code Splitting
+<p align="center">
+<img src="https://res.cloudinary.com/adev48/image/upload/v1679947501/Info%20Repositorios/React-Course-JAB/05b-AC03-react_manxoo.png" width="100%">
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<br>
 
-### Analyzing the Bundle Size
+<p align="center">
+<img src="https://res.cloudinary.com/adev48/image/upload/v1679947501/Info%20Repositorios/React-Course-JAB/05-AC03-react_zwkcvh.png" width="100%">
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+### Challenge 004:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Filter the kings that eat more than 10 cows a day and also have reigned for more than 10 years and render each element with the necessary information. Then create a separate counter for each rendered element.
 
-### Advanced Configuration
+<br>
+<p align="center">
+<img src="https://res.cloudinary.com/adev48/image/upload/v1679947501/Info%20Repositorios/React-Course-JAB/05-AC04-react_ndvrzg.png" width="100%">
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## Built With
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+This section contains the platforms that were used for the project.
 
-### `npm run build` fails to minify
+* [VS Code](https://code.visualstudio.com/)
+* [Git](https://git-scm.com/)
+* [Live Server: Extension for VsCode](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### Installation
+
+Install each one the pieces of software previously mentioned.
+
+
+1. Clone the repo
+
+- HTTPS
+   ```
+   $ git clone https://github.com/nqs48/React-course_JAB-Youtube.git
+   ```
+
+
+- SSH
+   ```
+   $ git clone git@github.com:nqs48/React-course_JAB-Youtube.git
+   ```
+
+
+2. Open the project with VisualStudio Code (In the root proyect directory)
+
+   ```
+   $ open .
+   ```
+   
+3. In the command line go to route **./05b-map-filter-find-jsx**
+
+   ```
+   cd ./05b-map-filter-find-jsx/
+   ```
+
+4. Install the packages with npm
+
+   ```
+   npm install
+   ```
+   
+5. Start the server with command 
+
+   ```
+   npm start
+   ```
+
+---
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE.txt` for more information.
+
+---
+
+<!-- CONTACT -->
+## Collaborators
+```
+Nestor Quiroga Suarez
+Software Developer
+```
+
+<p align='center'>
+  <a href="#top"><img src="https://img.shields.io/badge/Back to Top-black?" alt="back to top"/></a>
+</p>
