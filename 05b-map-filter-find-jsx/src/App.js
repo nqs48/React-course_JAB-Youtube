@@ -13,14 +13,14 @@ function App() {
     <> 
         <hr />
         <div>
-          <h3 className="text-description">1. Recorrer la lista de objetos y renderizar cada elemento
+          <h3 className="text-description">1. Recorrer la lista de reyes y renderizar cada elemento
            con la informacion necesaria. (map, default props) 
           </h3>
           <ActividadOneComponent />
         </div>
         <hr />
         <div>
-          <h3>2. Recorrer la lista de objetos y realizar un filtrado de los elementos en cuyo nombre no 
+          <h3 className="text-description">2. Recorrer la lista de objetos y realizar un filtro de los reyes cuyo nombre no 
             contenga la letra 'g', luego renderizar el componente con la informacion necesaria. Incluir un
             boton que al hacer click elimine el elemento renderizado (filter, map, events).
           </h3>
@@ -28,7 +28,7 @@ function App() {
         </div>
         <hr />
         <div>
-          <h3>3. Recorrer la lista de objetos y encontrar el primer elemento cuyo nombre inicie con la
+          <h3 className="text-description">3. Recorrer la lista de objetos y encontrar el primer elemento cuyo nombre inicie con la
             letra indicada en el formulario, si no encuentra ningun elemento, renderizar un mensaje que lo indique,
             y si lo encuentra renderizar el componente con la informacion necesaria.
             (find, map, conditional rendering, default props).
@@ -38,7 +38,7 @@ function App() {
         </div>
          <hr />
         <div>
-          <h3>4. Recorrer la lista de objetos y filtar los reyes que coman mas de 10 vacas diarias y ademas hayan reinado
+          <h3 className="text-description">4. Recorrer la lista de objetos y filtar los reyes que coman mas de 10 vacas diarias y ademas hayan reinado
             mas de 10 años  y renderizar cada elemento con la informacion necesaria. Luego crear un contador independiente
             para cada elemento renderizado (filter, map, conditional rendering, useState, events, default props).
           </h3>
