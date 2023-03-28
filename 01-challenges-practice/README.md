@@ -23,7 +23,7 @@ Themes and Methodologies Used:
 - ### Initial UI Home
 <br>
 <p align="center">
-<img src="https://res.cloudinary.com/adev48/image/upload/v1679691767/Info%20Repositorios/React-Course-JAB/react-01b-challenge_j7ef7d.png" width="80%"> 
+<img src="https://res.cloudinary.com/adev48/image/upload/v1679691767/Info%20Repositorios/React-Course-JAB/react-01b-challenge_j7ef7d.png" width="100%"> 
 
 </p>
 
@@ -32,7 +32,7 @@ Themes and Methodologies Used:
 - ### Updating UI Click
 <br>
 <p align="center">
-<img src="https://res.cloudinary.com/adev48/image/upload/v1679691768/Info%20Repositorios/React-Course-JAB/react-01-challenge_b2wrhb.png" width="80%"> 
+<img src="https://res.cloudinary.com/adev48/image/upload/v1679691768/Info%20Repositorios/React-Course-JAB/react-01-challenge_b2wrhb.png" width="100%"> 
 
 ---
 

@@ -25,7 +25,7 @@ Themes and Methodologies Used:
 .
 
 <p align="center">
-<img src="https://res.cloudinary.com/adev48/image/upload/v1679612967/Info%20Repositorios/React-Course-JAB/react-04-challenge_sbgj0g.png" width="80%"> 
+<img src="https://res.cloudinary.com/adev48/image/upload/v1679612967/Info%20Repositorios/React-Course-JAB/react-04-challenge_sbgj0g.png" width="100%"> 
 
 </p>
 
@@ -97,7 +97,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 ## Collaborators
 ```
 Nestor Quiroga Suarez
-Jr. Software Developer
+Software Developer
 ```
 
 <p align='center'>
