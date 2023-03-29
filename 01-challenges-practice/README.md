@@ -41,8 +41,10 @@ Themes and Methodologies Used:
 This section contains the platforms that were used for the project.
 
 * [VS Code](https://code.visualstudio.com/)
+* [npm](https://www.npmjs.com/)
+* [React](https://react.dev/)
+* [Create-React-App](https://create-react-app.dev/)
 * [Git](https://git-scm.com/)
-* [Live Server: Extension for VsCode](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 
 
 ### Installation
@@ -101,7 +103,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 ## Collaborators
 ```
 Nestor Quiroga Suarez
-Software Developer
+Software Developer Consultant
 ```
 
 <p align='center'>
