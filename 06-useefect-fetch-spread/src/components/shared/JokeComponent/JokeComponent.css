@@ -1,0 +1,22 @@
+.cardJoke{
+  width: 400px;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 30px;
+}
+
+img{
+  width: 100%;
+}
+
+p{
+  font-size: 1.2rem;
+  padding:0.25rem;
+  background: black;
+  color: white;
+  border-radius: 10px;
+}
+
+h3{
+  color: black;
+}
