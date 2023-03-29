@@ -4,7 +4,7 @@ import "../shared/JokeComponent/JokeComponent.css"
 
 function ChallengeJokeComponent(){
 
-  const [joke,setJoke]= useState({})
+  const [joke,setJoke]= useState()
   const [count, setCount] = useState(2)
 
   useEffect(()=>{
