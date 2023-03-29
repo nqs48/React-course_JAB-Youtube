@@ -1,70 +1,108 @@
-# Getting Started with Create React App
+# UseEffect, Fetch and Spread Operator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+In this section some concepts are put into practice such as: Spread Operator, Fetch API, **Hooks**: useEffect, Events Control.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-### `npm start`
+Consume the indicated Public API using **Fech API** for request and represent the data through a new component, control the requests through the Hook: **useEffect**. Assign a event to the button to make a new request and change the information represented in the component.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Themes and Methodologies Used:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Hooks**: useEffect
+- Fetch API
+- Spread Operator
+- Events Control
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## PROJECT REVIEW
 
-### `npm run build`
+### Challenge 001:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Consume a Public API and represent the data through a new component.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<br>
+<p align="center">
+<img src="https://res.cloudinary.com/adev48/image/upload/v1680111732/Info%20Repositorios/React-Course-JAB/06-AC01-react_pm8ogs.png" width="100%"> 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+</p>
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Built With
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This section contains the platforms that were used for the project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+* [VS Code](https://code.visualstudio.com/)
+* [npm](https://www.npmjs.com/)
+* [React](https://react.dev/)
+* [Create-React-App](https://create-react-app.dev/)
+* [Git](https://git-scm.com/)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Installation
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Install each one the pieces of software previously mentioned.
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1. Clone the repo
 
-### Analyzing the Bundle Size
+- HTTPS
+   ```
+   $ git clone https://github.com/nqs48/React-course_JAB-Youtube.git
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+- SSH
+   ```
+   $ git clone git@github.com:nqs48/React-course_JAB-Youtube.git
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+2. Open the project with VisualStudio Code (In the root proyect directory)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+   ```
+   $ open .
+   ```
+   
+3. In the command line go to route **./06-useefect-fetch-spread**
 
-### Deployment
+   ```
+   cd ./06-useefect-fetch-spread/
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+4. Install the packages with npm
 
-### `npm run build` fails to minify
+   ```
+   npm install
+   ```
+   
+5. Start the server with command 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+   ```
+   npm start
+   ```
+
+---
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE.txt` for more information.
+
+---
+
+<!-- CONTACT -->
+## Collaborators
+```
+Nestor Quiroga Suarez
+Software Developer
+```
+
+<p align='center'>
+  <a href="#top"><img src="https://img.shields.io/badge/Back to Top-black?" alt="back to top"/></a>
+</p>
