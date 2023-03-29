@@ -36,10 +36,10 @@ button{
   background-color: white-smoke;
   color: dark;
   font-size: 1rem;
-  border-radius: 10px;
+  border-radius: 20px;
   border: none;
   font-weight: bold;
-  margin:10px;
+  margin-left:5px;
   width: 80px;
   cursor: pointer;
   
